@@ -1,0 +1,41 @@
+/* ------ Responsivo ------ */
+@media only screen and (min-width: 1300px) {
+
+    /* ------ main ------ */
+    .container {
+        flex-direction: row;
+        width: 1440px;
+        height: 800px;
+    }
+
+    .container::before,
+    .container::after {
+        width: 525px;
+        height: 700px;
+    }
+
+    .container::before {
+        left: -105px;
+        border-radius: 0 0 375px 375px;
+    }
+
+    .container::after {
+        bottom: -20px;
+        right: -200px;
+        border-radius: 375px 375px 0 0;
+    }
+
+    .simple {
+        text-align: left;
+        margin: 0 0 0 730px;
+        padding: 0 264px 0 0;
+    }
+
+
+    /* ------ smartphone ------ */
+    .smartphone {
+        margin: 147px 830px 147px 364px;
+        /* width: 267px; */
+    }
+
+}
