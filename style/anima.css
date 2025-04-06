@@ -6,19 +6,6 @@
     position: relative;
 }
 
-/* .one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven,
-.eight {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1s, visibility 1s;
-} */
-
 @keyframes moveUp {
     0%, 5% {
         transform: translateY(310px);
